@@ -6,8 +6,8 @@ permalink: /setup/
 
 You need to download some files to follow this lesson:
 
-1. Make a new folder in your Desktop called `python-novice-inflammation`.
-2. Download [python-novice-inflammation-data.zip][zipfile] and move the file to this folder.
+1. Make a new folder on your Desktop called `python-intro-inflammation`.
+2. Download [python-intro-inflammation-data.zip][zipfile] and move the file to this folder.
 3. If it's not unzipped yet, double-click on it to unzip it. You should end up with a new folder called `data`.
 4. You can access this folder from the Unix shell with:
 
@@ -18,9 +18,15 @@ $ cd Desktop/python-novice-inflammation/data
 {: .source}
 
 If you will be using the Jupyter (IPython) notebook for the lesson,
-you should have already
-[installed Anaconda](http://swcarpentry.github.io/workshop-template/#setup)
-which includes the notebook.
+you have one of the following options:
+
+1. Install [Anaconda](http://swcarpentry.github.io/workshop-template/#setup) on your computer which includes the notebook.
+2. Use https://jupyter.rcc.uchicago.edu if you have an RCC account. The Jupyter notebook on RCC uses Python 2 by default. Please run the following commands to add Python 3 to Jupyter notebook:
+~~~
+   module load python/3.4-2015q1
+   python -m ipykernel install --user --name py35 --display-name "Python 3"
+~~~
+{: .source}
 
 To start the notebook, open a terminal or git bash and type the command:
 
