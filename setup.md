@@ -21,25 +21,20 @@ If you will be using the Jupyter (IPython) notebook for the lesson,
 you have one of the following options:
 
 1. Install [Anaconda](http://swcarpentry.github.io/workshop-template/#setup) on your computer which includes the notebook.
-2. Use https://jupyter.rcc.uchicago.edu if you have an RCC account. The Jupyter notebook on RCC uses Python 2 by default. Please run the following commands to add Python 3 to Jupyter notebook:
+2. Use [Jupyter Online](https://try.jupyter.org)
+3. Use https://jupyter.rcc.uchicago.edu if you have an RCC account. The Jupyter notebook on RCC uses Python 2 by default. Please login to Midway and run the following commands to add Python 3 to the Jupyter notebook:
 ~~~
    module load python/3.4-2015q1
    python -m ipykernel install --user --name py35 --display-name "Python 3"
 ~~~
 {: .source}
 
-To start the notebook, open a terminal or git bash and type the command:
+To start the notebook, depending on which of the above methods you have selected, you could use your browser or start a terminal and type the command:
 
 ~~~
 $ jupyter notebook
 ~~~
 {: .source}
 
-To start the Python interpreter without the notebook, open a terminal or git bash and type the command:
 
-~~~
-$ python
-~~~
-{: .source}
-
-[zipfile]: {{ page.root }}/data/python-novice-inflammation-data.zip
+[zipfile]: {{ page.root }}/data/python-intro-inflammation-data.zip
