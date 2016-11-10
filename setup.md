@@ -20,7 +20,7 @@ $ cd Desktop/python-novice-inflammation/data
 If you will be using the Jupyter (IPython) notebook for the lesson,
 you have one of the following options:
 
-1. Install [Anaconda](http://swcarpentry.github.io/workshop-template/#setup) on your computer which includes the notebook.
+1. Install [Anaconda](http://swcarpentry.github.io/workshop-template/#python) on your computer which includes the notebook.
 2. Use [Jupyter Online](https://try.jupyter.org)
 3. Use https://jupyter.rcc.uchicago.edu if you have an RCC account. The Jupyter notebook on RCC uses Python 2 by default. Please login to Midway1 and run the following commands to add Python 3 to the Jupyter notebook:
 
