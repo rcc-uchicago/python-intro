@@ -6,10 +6,10 @@
 carpentry: "swc"
 
 # Overall title for pages.
-title: "Programming with Python"
+title: "Introduction to Python"
 
 # Contact email address.
-email: lessons@software-carpentry.org
+email: info@rcc.uchicago.edu
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
