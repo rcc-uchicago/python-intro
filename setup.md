@@ -36,7 +36,6 @@ To start the notebook, do one of the following (depending on which of the above 
   * You need to upload the data folder to the remote server. Once you launched the notebook, use the New button to create a new folder and the Upload button to upload the content of the data folder to the folder that you created. (Please see the following figure.)
   
   ![jupyter interface](../fig/jupyter.jpg) 
-
 2. Start a terminal and type the following command (assuming you are in the `data` folder):
 
 ~~~
