@@ -35,7 +35,7 @@ To start the notebook, do one of the following (depending on which of the above 
 1. Start a browser on your computer and access one of the websites mentioned in item 2 or 3 (above) to launch the Jupyter notebook
   * You need to upload the data folder to the remote server. Once you launched the notebook, use the New button to create a new folder and the Upload button to upload the content of the data folder to the folder that you created. (Please see the following figure.)
   
-  ![jupyter interface](./fig/jupyter.jpg) 
+  ![jupyter interface](../fig/jupyter.jpg) 
 
 2. Start a terminal and type the following command (assuming you are in the `data` folder):
 
