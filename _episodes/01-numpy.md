@@ -208,7 +208,7 @@ This is different from the way spreadsheets work.
 > ~~~
 > Variable    Type       Data/Info
 > --------------------------------
-> numpy       module     <module 'numpy' from '/Us<...>kages/numpy/__init__.py'>
+> numpy       module     <module 'numpy' from '/so<...>kages/numpy/__init__.py'>
 > weight_kg   float      100.0
 > weight_lb   float      126.5
 > ~~~
@@ -672,7 +672,31 @@ but we can explore a few features of Python's `matplotlib` library here.
 While there is no "official" plotting library,
 this package is the de facto standard.
 First,
-we will import the `pyplot` module from `matplotlib`
+we will import the `matplotlib` package:
+
+~~~
+import matplotlib
+~~~
+{: .python}
+
+> ## Some IPython Magic
+>
+> If you're using an IPython / Jupyter notebook,
+> you'll need to execute the following command
+> in order for your `matplotlib` images to appear
+> in the notebook when `show()` is called:
+>
+> ~~~
+> % matplotlib inline
+> ~~~
+> {: .python}
+>
+> The `%` indicates an IPython magic function -
+> a function that is only valid within the notebook environment.
+> Note that you only have to execute this function once per notebook.
+{: .callout}
+
+Then, we import the `pyplot` module from `matplotlib`
 and use two of its functions to create and display a heat map of our data:
 
 ~~~
@@ -687,23 +711,6 @@ matplotlib.pyplot.show()
 Blue regions in this heat map are low values, while red shows high values.
 As we can see,
 inflammation rises and falls over a 40-day period.
-
-> ## Some IPython Magic
->
-> If you're using an IPython / Jupyter notebook,
-> you'll need to execute the following command
-> in order for your matplotlib images to appear
-> in the notebook when `show()` is called:
->
-> ~~~
-> % matplotlib inline
-> ~~~
-> {: .python}
->
-> The `%` indicates an IPython magic function -
-> a function that is only valid within the notebook environment.
-> Note that you only have to execute this function once per notebook.
-{: .callout}
 
 Let's take a look at the average inflammation over time:
 
