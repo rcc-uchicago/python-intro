@@ -676,15 +676,17 @@ we will import the `matplotlib` package:
 
 ~~~
 import matplotlib
+# You need to run the following commadn on Midway1
+matplotlib.use('tkagg')
 ~~~
 {: .python}
 
 > ## Some IPython Magic
 >
 > If you're using an IPython / Jupyter notebook,
-> you'll need to execute the following command
+> you'll need to execute the following command (once per notebook)
 > in order for your `matplotlib` images to appear
-> in the notebook when `show()` is called:
+> in the notebook:
 >
 > ~~~
 > % matplotlib inline
@@ -702,6 +704,7 @@ and use two of its functions to create and display a heat map of our data:
 ~~~
 import matplotlib.pyplot
 image = matplotlib.pyplot.imshow(data)
+# You do not need to run the show() function in the Jupyter notebook
 matplotlib.pyplot.show()
 ~~~
 {: .python}
