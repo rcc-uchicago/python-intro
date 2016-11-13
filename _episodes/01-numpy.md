@@ -676,8 +676,6 @@ we will import the `matplotlib` package:
 
 ~~~
 import matplotlib
-# You need to run the following commadn on Midway1
-matplotlib.use('tkagg')
 ~~~
 {: .python}
 
