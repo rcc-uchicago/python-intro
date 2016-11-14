@@ -1,6 +1,6 @@
 ---
 title: Programming basics
-teaching: 10
+teaching: 5
 exercises: 0
 questions:
 - What is programming?
