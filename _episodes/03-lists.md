@@ -286,14 +286,14 @@ This is commonly referred to as "slicing" the list/string.
 ~~~
 binomial_name = 'Drosophila melanogaster'
 group = binomial_name[0:10]
-print("group:", group)
+print('group:', group)
 
 species = binomial_name[11:24]
-print("species:", species)
+print('species:', species)
 
 chromosomes = ['X', 'Y', '2', '3', '4']
 autosomes = chromosomes[2:5]
-print("autosomes:", autosomes)
+print('autosomes:', autosomes)
 
 last = chromosomes[-1]
 print('last:', last)
@@ -385,7 +385,7 @@ last: 4
 > "In an octopus's garden in the shade"
 >
 > ~~~
-> beatles = 'In an octopus's garden in the shade'
+> beatles = "In an octopus's garden in the shade"
 > ~~~
 > {: .python}
 >
@@ -440,7 +440,7 @@ print('With known last position:', sond)
 sond = months[8:len(months)]
 print('Using len() to get last entry:', sond)
 sond = months[8:]
-('Omitting ending index:', sond)
+print('Omitting ending index:', sond)
 ~~~
 {: .python}
 
