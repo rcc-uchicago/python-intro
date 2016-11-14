@@ -284,26 +284,26 @@ similar to how we accessed ranges of positions in a Numpy array.
 This is commonly referred to as "slicing" the list/string.
 
 ~~~
-binomial_name = "Drosophila melanogaster"
+binomial_name = 'Drosophila melanogaster'
 group = binomial_name[0:10]
 print("group:", group)
 
 species = binomial_name[11:24]
 print("species:", species)
 
-chromosomes = ["X", "Y", "2", "3", "4"]
+chromosomes = ['X', 'Y', '2', '3', '4']
 autosomes = chromosomes[2:5]
 print("autosomes:", autosomes)
 
 last = chromosomes[-1]
-print("last:", last)
+print('last:', last)
 ~~~
 {: .python}
 
 ~~~
 group: Drosophila
 species: melanogaster
-autosomes: ["2", "3", "4"]
+autosomes: ['2', '3', '4']
 last: 4
 ~~~
 {: .output}
@@ -313,14 +313,14 @@ last: 4
 > Use slicing to access only the last four characters of a string or entries of a list.
 >
 > ~~~
-> string_for_slicing = "Observation date: 02-Feb-2013"
-> list_for_slicing = [["fluorine", "F"], ["chlorine", "Cl"], ["bromine", "Br"], ["iodine", "I"], ["astatine", "At"]]
+> string_for_slicing = 'Observation date: 02-Feb-2013'
+> list_for_slicing = [['fluorine', 'F'], ['chlorine', 'Cl'], ['bromine', 'Br'], ['iodine', 'I'], ['astatine', 'At']]
 > ~~~
 > {: .python}
 >
 > ~~~
-> "2013"
-> [["chlorine", "Cl"], ["bromine", "Br"], ["iodine", "I"], ["astatine", "At"]]
+> '2013'
+> [['chlorine', 'Cl'], ['bromine', 'Br'], ['iodine', 'I'], ['astatine', 'At']]
 > ~~~
 > {: .output}
 >
@@ -354,7 +354,7 @@ last: 4
 > ~~~
 > primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37]
 > subset = primes[0:12:3]
-> print("subset", subset)
+> print('subset', subset)
 > ~~~
 > {: .python}
 >
@@ -371,7 +371,7 @@ last: 4
 > ~~~
 > primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37]
 > subset = primes[2:12:3]
-> print("subset", subset)
+> print('subset', subset)
 > ~~~
 > {: .python}
 >
@@ -385,7 +385,7 @@ last: 4
 > "In an octopus's garden in the shade"
 >
 > ~~~
-> beatles = "In an octopus's garden in the shade"
+> beatles = 'In an octopus's garden in the shade'
 > ~~~
 > {: .python}
 >
@@ -417,11 +417,11 @@ last: 4
 If you want to take a slice from the beginning of a sequence, you can omit the first index in the range:
 
 ~~~
-date = "Monday 4 January 2016"
+date = 'Monday 4 January 2016'
 day = date[0:6]
-print("Using 0 to begin range:", day)
+print('Using 0 to begin range:', day)
 day = date[:6]
-print("Omitting beginning index:", day)
+print('Omitting beginning index:', day)
 ~~~
 {: .python}
 
@@ -434,20 +434,20 @@ Omitting beginning index: Monday
 And similarly, you can omit the ending index in the range to take a slice to the very end of the sequence:
 
 ~~~
-months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
+months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
 sond = months[8:12]
-print("With known last position:", sond)
+print('With known last position:', sond)
 sond = months[8:len(months)]
-print("Using len() to get last entry:", sond)
+print('Using len() to get last entry:', sond)
 sond = months[8:]
-("Omitting ending index:", sond)
+('Omitting ending index:', sond)
 ~~~
 {: .python}
 
 ~~~
-With known last position: ["sep", "oct", "nov", "dec"]
-Using len() to get last entry: ["sep", "oct", "nov", "dec"]
-Omitting ending index: ["sep", "oct", "nov", "dec"]
+With known last position: ['sep', 'oct', 'nov', 'dec']
+Using len() to get last entry: ['sep', 'oct', 'nov', 'dec']
+Omitting ending index: ['sep', 'oct', 'nov', 'dec']
 ~~~
 {: .output}
 
