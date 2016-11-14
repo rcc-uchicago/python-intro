@@ -1,6 +1,6 @@
 ---
 title: Storing Multiple Values in Lists
-teaching: 30
+teaching: 20
 exercises: 0
 questions:
 - "How can I store many values together?"
