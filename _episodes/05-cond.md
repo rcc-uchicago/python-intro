@@ -1,6 +1,6 @@
 ---
 title: Making Choices
-teaching: 30
+teaching: 15
 exercises: 0
 questions:
 - "How can my programs do different things based on data values?"
