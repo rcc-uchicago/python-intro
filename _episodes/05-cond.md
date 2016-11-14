@@ -81,16 +81,16 @@ The following Python code uses `elif` to print the sign of a number.
 num = -3
 
 if num > 0:
-    print(num, "is positive")
+    print(num, 'is positive')
 elif num == 0:
-    print(num, "is zero")
+    print(num, 'is zero')
 else:
-    print(num, "is negative")
+    print(num, 'is negative')
 ~~~
 {: .python}
 
 ~~~
-"-3 is negative"
+-3 is negative
 ~~~
 {: .output}
 
