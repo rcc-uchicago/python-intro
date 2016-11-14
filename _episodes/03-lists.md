@@ -123,60 +123,6 @@ does not.
 > every small change. You should consider both of these aspects when writing your code.
 {: .callout}
 
-> ## Nested Lists
-> Since lists can contain any Python variable, it can even contain other lists.
->
-> For example, we could represent the products in the shelves of a small grocery shop:
->
-> ~~~
-> x = [['pepper', 'zucchini', 'onion'],
->      ['cabbage', 'lettuce', 'garlic'],
->      ['apple', 'pear', 'banana']]
-> ~~~
-> {: .python}
->
-> Here is a visual example of how indexing a list of lists `x` works:
->
-> <a href='https://twitter.com/hadleywickham/status/643381054758363136'>
-> ![The first element of a list. Adapted from @hadleywickham's tweet about R lists.](../fig/indexing_lists_python.png)</a>
->
-> Using the previously declared list `x`, these would be the results of the
-> index operations shown in the image:
->
-> ~~~
-> print([x[0]])
-> ~~~
-> {: .python}
->
-> ~~~
-> [['pepper', 'zucchini', 'onion']]
-> ~~~
-> {: .output}
->
-> ~~~
-> print(x[0])
-> ~~~
-> {: .python}
->
-> ~~~
-> ['pepper', 'zucchini', 'onion']
-> ~~~
-> {: .output}
->
-> ~~~
-> print(x[0][0])
-> ~~~
-> {: .python}
->
-> ~~~
-> 'pepper'
-> ~~~
-> {: .output}
->
-> Thanks to [Hadley Wickham](https://twitter.com/hadleywickham/status/643381054758363136)
-> for the image above.
-{: .callout}
-
 There are many ways to change the contents of lists besides assigning new values to
 individual elements:
 
@@ -278,6 +224,60 @@ This is different from how variables worked in lesson 1, and more similar to how
 > > {: .python}
 > {: .solution}
 {: .challenge}
+
+> ## Nested Lists
+> Since lists can contain any Python variable, it can even contain other lists.
+>
+> For example, we could represent the products in the shelves of a small grocery shop:
+>
+> ~~~
+> x = [['pepper', 'zucchini', 'onion'],
+>      ['cabbage', 'lettuce', 'garlic'],
+>      ['apple', 'pear', 'banana']]
+> ~~~
+> {: .python}
+>
+> Here is a visual example of how indexing a list of lists `x` works:
+>
+> <a href='https://twitter.com/hadleywickham/status/643381054758363136'>
+> ![The first element of a list. Adapted from @hadleywickham's tweet about R lists.](../fig/indexing_lists_python.png)</a>
+>
+> Using the previously declared list `x`, these would be the results of the
+> index operations shown in the image:
+>
+> ~~~
+> print([x[0]])
+> ~~~
+> {: .python}
+>
+> ~~~
+> [['pepper', 'zucchini', 'onion']]
+> ~~~
+> {: .output}
+>
+> ~~~
+> print(x[0])
+> ~~~
+> {: .python}
+>
+> ~~~
+> ['pepper', 'zucchini', 'onion']
+> ~~~
+> {: .output}
+>
+> ~~~
+> print(x[0][0])
+> ~~~
+> {: .python}
+>
+> ~~~
+> 'pepper'
+> ~~~
+> {: .output}
+>
+> Thanks to [Hadley Wickham](https://twitter.com/hadleywickham/status/643381054758363136)
+> for the image above.
+{: .callout}
 
 Subsets of lists and strings can be accessed by specifying ranges of values in brackets,
 similar to how we accessed ranges of positions in a Numpy array.
