@@ -1,6 +1,6 @@
 ---
 title: Repeating Actions with Loops
-teaching: 20
+teaching: 15
 exercises: 0
 questions:
 - "How can I do the same operations on many different values?"
