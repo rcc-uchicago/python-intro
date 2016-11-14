@@ -203,7 +203,7 @@ This is different from how variables worked in lesson 1, and more similar to how
 > Use a for-loop to convert the string "hello" into a list of letters:
 >
 > ~~~
-> ["h", "e", "l", "l", "o"]
+> ['h', 'e', 'l', 'l', 'o']
 > ~~~
 > {: .python}
 >
@@ -217,7 +217,7 @@ This is different from how variables worked in lesson 1, and more similar to how
 > > ## Solution
 > > ~~~
 > > my_list = []
-> > for char in "hello":
+> > for char in 'hello':
 > >     my_list.append(char)
 > > print(my_list)
 > > ~~~
