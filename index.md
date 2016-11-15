@@ -7,7 +7,7 @@ The best way to learn how to program is to do something useful,
 so this introduction to Python is built around a common scientific task:
 data analysis.
 
-Our real goal isn't to teach you Python,
+Our real goal isn't to teach you Python, because it cannot be done in this short workshop,
 but to teach you the basic concepts that all programming depends on.
 We use Python in our lessons because:
 
