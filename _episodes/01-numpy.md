@@ -133,7 +133,7 @@ print('weight in pounds:', 2.2 * weight_kg)
 {: .python}
 
 ~~~
-weight in pounds: 121.0
+weight in pounds: 121.00000000000001
 ~~~
 {: .output}
 
@@ -169,7 +169,7 @@ print('weight in kilograms:', weight_kg, 'and in pounds:', weight_lb)
 {: .python}
 
 ~~~
-weight in kilograms: 57.5 and in pounds: 126.5
+weight in kilograms: 57.5 and in pounds: 126.50000000000001
 ~~~
 {: .output}
 
@@ -184,7 +184,7 @@ print('weight in kilograms is now:', weight_kg, 'and weight in pounds is still:'
 {: .python}
 
 ~~~
-weight in kilograms is now: 100.0 and weight in pounds is still: 126.5
+weight in kilograms is now: 100.0 and weight in pounds is still: 126.50000000000001
 ~~~
 {: .output}
 
@@ -210,7 +210,7 @@ This is different from the way spreadsheets work.
 > --------------------------------
 > numpy       module     <module 'numpy' from '/so<...>kages/numpy/__init__.py'>
 > weight_kg   float      100.0
-> weight_lb   float      126.5
+> weight_lb   float      126.50000000000001
 > ~~~
 > {: .output}
 {: .callout}
