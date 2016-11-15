@@ -22,7 +22,8 @@ you have one of the following options:
 
 1. Install [Anaconda](http://swcarpentry.github.io/workshop-template/#python) on your computer which includes the notebook.
 2. Use [Jupyter Online](https://try.jupyter.org) (This server disconnects every few minutes so it is not reliable to use)
-3. Use [https://jupyter.rcc.uchicago.edu]() if you have an RCC account. The Jupyter notebook on RCC uses Python 2 by default. Please login to Midway1 and run the following commands to add Python 3 to the Jupyter notebook:
+3. Use [Sagemath](https://cloud.sagemath.com/). You need to create a free account to use their service
+4. Use [https://jupyter.rcc.uchicago.edu]() if you have an RCC account. The Jupyter notebook on RCC uses Python 2 by default. Please login to Midway1 and run the following commands to add Python 3 to the Jupyter notebook:
 
 ~~~
 $ module load python/3.4-2015q1
@@ -32,7 +33,7 @@ $ python -m ipykernel install --user --name py35 --display-name "Python 3"
 
 To start the notebook, do one of the following (depending on which of the above methods you have selected):
 
-1. Start a browser on your computer and access one of the websites mentioned in item 2 or 3 (above) to launch the Jupyter notebook
+1. Start a browser on your computer and access one of the websites mentioned in item 3 or 4 (above) to launch the Jupyter notebook
   * You need to upload the data folder to the remote server. Once you launched the notebook, use the New button to create a new folder and the Upload button to upload the content of the data folder to the folder that you created. (Please see the following figure.)
   
   ![jupyter interface](../fig/jupyter.jpg) 
