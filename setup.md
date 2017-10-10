@@ -22,8 +22,7 @@ you have one of the following options:
 
 1. Install [Anaconda](http://swcarpentry.github.io/workshop-template/#python) on your computer which includes the notebook.
 2. Use [Jupyter Online](https://try.jupyter.org) (This server disconnects every few minutes so it is not reliable to use)
-3. Use [Sagemath](https://cloud.sagemath.com/). You need to create a free account to use their service
-4. Use [Jupyter hub](https://jupyter.rcc.uchicago.edu) if you have an RCC account. The Jupyter hub on RCC uses Anaconda Python 2 by default. Please login to Midway1 and run the following commands to add Anaconda Python 3 to the Jupyter notebook:
+3. Use [Jupyter hub](https://jupyter.rcc.uchicago.edu) if you have an RCC account. The Jupyter hub on RCC uses Anaconda Python 2 by default. Please login to Midway1 and run the following commands to add Anaconda Python 3 to the Jupyter notebook:
 
 ~~~
 $ module load Anaconda3
